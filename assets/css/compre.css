@@ -24,6 +24,7 @@ body {
 header {
     background-color: #FFE11F;
     color: #16B83E;
+    
 }
 
 nav {
@@ -33,6 +34,7 @@ nav {
     display: flex;
     gap: 5px;
     align-items: center;
+    
 
 }
 
@@ -42,9 +44,15 @@ nav > a {
     border: 2px solid #FFFFFF;
     height: fit-content; 
     font-size: 1.3rem; 
-    padding: 0.5rem;  
-    
-    
+    padding: 0.5rem;
+    font-weight: bold; 
+       
+}
+
+nav > a:hover {
+    background-color: #FFE11F;
+    color: #16B83E;
+    border: 2px solid #1651B8;
 }
 
 main {
@@ -71,7 +79,12 @@ article {
     background-color: #16B83E;
     color: #FFFFFF;
     width: 19rem;
-    height: 28rem;;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
 }
 
 
@@ -79,8 +92,30 @@ footer {
     background-color: #16B83E;
     height: 4rem;
     color: #1651B8;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-weight: bolder;
+    
+}
+
+article > button {
+    width: 12rem;
+    height: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #1651B8;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#quantidade {
+    width: 2.5rem;
+}
+
+article > button:hover {
+    background-color: #FFE11F;
+    color: #16B83E;
 }
