@@ -7,7 +7,12 @@
 body {
     height: 100vh;
     width: 100vw;
+    font-family: 'Poppins', sans-serif;
+
+    
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Poppins:wght@400;500&display=swap');
 
 /* Color Theme Swatches in Hex */
 .Bandeira-Brasil-1-hex { color: #16B83E; }
@@ -23,12 +28,23 @@ header {
 
 nav {
     background-color: #16B83E;
+    height: 4rem;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
 
 }
 
 nav > a {
     color: #1651B8;
     text-decoration: none;
+    border: 2px solid #FFFFFF;
+    height: fit-content; 
+    font-size: 1.3rem; 
+    padding: 0.5rem;  
+    
+    
 }
 
 main {
@@ -40,8 +56,27 @@ main {
     background-color: #FFE11F;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+h1 > img {
+    width: 50px;
+}
+
 article {
     border: 2px solid #1651B8;
     background-color: #16B83E;
     color: #FFFFFF;
+}
+
+
+footer {
+    background-color: #16B83E;
+    height: 4rem;
+    color: #1651B8;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
 }
