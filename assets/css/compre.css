@@ -54,6 +54,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #FFE11F;
+    padding: 50px;
 }
 
 .logo {
@@ -69,6 +70,8 @@ article {
     border: 2px solid #1651B8;
     background-color: #16B83E;
     color: #FFFFFF;
+    width: 19rem;
+    height: 28rem;;
 }
 
 
@@ -79,4 +82,5 @@ footer {
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
