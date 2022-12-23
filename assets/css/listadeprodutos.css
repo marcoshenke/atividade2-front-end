@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Poppins:wght@400;500&display=swap');
+
+/* Color Theme Swatches in Hex */
+.Bandeira-Brasil-1-hex { color: #16B83E; }
+.Bandeira-Brasil-2-hex { color: #FFE11F; }
+.Bandeira-Brasil-3-hex { color: #1651B8; }
+.Bandeira-Brasil-4-hex { color: #FFFFFF; }
+
+
+header {
+    background-color: #FFE11F;
+    color: #16B83E;
+    
+}
+
+nav {
+    background-color: #16B83E;
+    height: 4rem;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+
+}
+
+nav > a {
+    color: #1651B8;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    height: fit-content; 
+    font-size: 1.3rem; 
+    padding: 0.5rem;
+    font-weight: bold; 
+       
+}
+
+nav > a:hover {
+    background-color: #FFE11F;
+    color: #16B83E;
+    border: 2px solid #1651B8;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE11F;
+    padding: 25px;
+    height: 75%;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+h1 > img {
+    width: 50px;
+}
+
+
+footer {
+    background-color: #16B83E;
+    height: 4rem;
+    color: #1651B8;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {background-color: #16B83E}
+
+  th {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .title {
+    font-weight: bold;
+  }
