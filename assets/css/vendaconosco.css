@@ -110,7 +110,7 @@ main {
     align-items: center;
     background: rgb(22,184,62);
     background: linear-gradient(90deg, rgba(22,184,62,1) 12%, rgba(255,225,31,1) 48%, rgba(22,81,184,1) 91%); 
-    
+    color: #FFFFFF;
     padding: 25px;
     height: 90vh;
     

@@ -88,7 +88,7 @@ nav > a:hover {
     justify-content: end;
     border-radius: 10px;
     font-size: 30px;
-    margin-top: -70px;
+    margin-top: -20px;
     font-family: 'Anton', sans-serif;
 
 }
@@ -99,9 +99,11 @@ main {
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    background-color: #16B83E;
+    background: rgb(22,81,184);
+background: linear-gradient(90deg, rgba(22,81,184,1) 0%, rgba(255,225,31,1) 46%, rgba(22,184,62,1) 100%);
     padding: 50px;
     flex-direction: column;
+   
     
 }
 
