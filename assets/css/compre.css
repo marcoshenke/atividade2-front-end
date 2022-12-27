@@ -7,6 +7,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 
     
 }
@@ -26,27 +27,17 @@ header {
     background-color: #FFE11F;
     color: #FFFFFF;
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: space-between;
-    padding-inline: 2px;
-    height: 13rem;
-    align-items: flex-start ;
+    padding-inline: 20px;
+    height: 10vh;
+    align-items: center ;
     background-image: url("/imagens/brasilbandeira.jpg");
     background-position: 10% 40%;
     
 }
 
-.dentro-header {
-    background-color: #16B83E;
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    height: 8vh;
-    justify-content: space-between;
-    border-bottom: 5px solid white;
-    align-items: center;
-    
-}
+
 
 .logo {
     font-size: 45px;
@@ -54,7 +45,7 @@ header {
 }
 
 nav {   
-    padding: 10px;
+    
     display: flex;
     gap: 15px;
     align-items: center;
@@ -90,10 +81,16 @@ nav > a:hover {
     flex-direction: column;
     justify-content: end;
     border-radius: 10px;
-    font-size: 4vh;
+    font-size: 2rem;
     margin-top: -20px;
     font-family: 'Anton', sans-serif;
+    align-items: center;
+    text-align: center;
 
+}
+
+strong {
+    color: #16B83E;
 }
 
 main {
@@ -186,16 +183,40 @@ article > button:hover {
     color: #FFE11F;
 }
 
-@media screen and (max-width: 1520px) {
-    .slogan-and-title {
-        margin-top: 30px;
-        
-       
+@media only screen and (min-width: 320px) and (max-width: 479px)
+{ 
+    .logo {
+        font-size: 40px;    
     }
-}
 
-@media screen and (max-width: 1035px) {
-    .dentro-header {
-        flex-wrap: nowrap;
+    .slogan-and-title {
+        margin-top: 0px;
+        font-size: 1rem;
+        
     }
-}
+
+    main {
+        padding: 0;
+        
+        
+    }
+
+    footer {
+                
+    }
+ }
+
+@media (min-width:480px) 
+{ /* smartphones, Android phones, landscape iPhone */ }
+
+@media (min-width:600px) 
+{ /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+
+@media (min-width:801px) 
+{ /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+@media (min-width:1025px) 
+{ /* big landscape tablets, laptops, and desktops */ }
+
+@media (min-width:1281px)
+ { /* hi-res laptops and desktops */ }
