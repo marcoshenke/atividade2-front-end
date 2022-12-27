@@ -43,11 +43,14 @@ header {
     flex-flow: row wrap;
     height: 8vh;
     justify-content: space-between;
+    border-bottom: 5px solid white;
+    align-items: center;
     
 }
 
 .logo {
     font-size: 45px;
+    
 }
 
 nav {   
@@ -87,7 +90,7 @@ nav > a:hover {
     flex-direction: column;
     justify-content: end;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 4vh;
     margin-top: -20px;
     font-family: 'Anton', sans-serif;
 
@@ -181,4 +184,18 @@ article > button {
 article > button:hover {
     background-color: #16B83E;
     color: #FFE11F;
+}
+
+@media screen and (max-width: 1520px) {
+    .slogan-and-title {
+        margin-top: 30px;
+        
+       
+    }
+}
+
+@media screen and (max-width: 1035px) {
+    .dentro-header {
+        flex-wrap: nowrap;
+    }
 }

@@ -12,7 +12,7 @@ body {
     
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Poppins:wght@400;500;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); 
 
@@ -30,22 +30,24 @@ header {
     width: 100%;
     justify-content: space-between;
     padding-inline: 2px;
-    height: 8vh;
+    height: 13rem;
     align-items: flex-start ;
-    border-bottom: 5px solid white; 
+    background-image: url("/imagens/brasilbandeira.jpg");
+    background-position: 10% 40%;
     
 }
 
 
 
 .dentro-header {
-    background-color: transparent;
+    background-color: #16B83E;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     height: 8vh;
     justify-content: space-between;
-    
+    border-bottom: 5px solid white;
+    align-items: center;
     
 }
 
@@ -81,12 +83,7 @@ nav > a:hover {
     border-color: #1651B8;
 }
 
-.bandeira {
-    width: 100%;
-    height: 15vh;
-    background-image: url(/imagens/brasilbandeira.jpg);
-    background-position: 10% 45%;
-}
+
 
 .slogan-and-title {
     background-size: auto;
@@ -108,9 +105,9 @@ main {
     gap: 2rem 2rem;
     justify-content: flex-start;
     align-items: center;
-    background: rgb(22,184,62);
-    background: linear-gradient(90deg, rgba(22,184,62,1) 12%, rgba(255,225,31,1) 48%, rgba(22,81,184,1) 91%); 
-    color: #FFFFFF;
+    background: rgb(22,81,184);
+background: linear-gradient(90deg, rgba(22,81,184,1) 0%, rgba(255,225,31,1) 50%, rgba(22,184,62,1) 100%);
+   color: #FFFFFF;
     padding: 25px;
     height: 90vh;
     

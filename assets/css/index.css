@@ -11,7 +11,7 @@ body {
     
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Poppins:wght@400;500;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); 
 
@@ -29,7 +29,7 @@ header {
     width: 100%;
     justify-content: space-between;
     padding-inline: 2px;
-    height: 25vh;
+    height: 13rem;
     align-items: flex-start ;
     background-image: url("/imagens/brasilbandeira.jpg");
     background-position: 10% 40%;
@@ -41,13 +41,16 @@ header {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    height: 12vh;
+    height: 8vh;
     justify-content: space-between;
+    border-bottom: 5px solid white;
+    align-items: center;
     
 }
 
+
 .logo {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 nav {   
@@ -88,7 +91,7 @@ nav > a:hover {
     justify-content: end;
     border-radius: 10px;
     font-size: 30px;
-    margin-top: -70px;
+    margin-top: 100px;
     font-family: 'Anton', sans-serif;
 
 }
@@ -97,13 +100,22 @@ main {
     display: flex;
     flex-flow: column wrap;
     gap: 2rem 2rem;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background: rgb(255,225,31);
 background: linear-gradient(90deg, rgba(255,225,31,1) 23%, rgba(22,81,184,1) 49%, rgba(22,184,62,1) 71%);
-    padding: 25px;
-    height: 75vh;
-    
+    padding: 10px;
+    height: 90vh;
+    font-size: 2vh;
+    color: #FFFFFF;
+       
+}
+
+main > p { 
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    width: 50vw;
 }
 
 .logo {
@@ -115,8 +127,13 @@ background: linear-gradient(90deg, rgba(255,225,31,1) 23%, rgba(22,81,184,1) 49%
     width: 45vw;
     border-radius: 10px;
     border: 4px solid #FFFFFF;
+    
+    
 }
 
+img:hover {
+    transform: scaleX(-1);
+}
 
 footer {
     background-color: #FFE11F;
@@ -130,12 +147,5 @@ footer {
     padding: 10px;
 }
 
-main {
-  height: 100vh;
-  font-size: 3vh;
-  color: #FFFFFF;
-  text-decoration: none;
-  
-}
 
   
