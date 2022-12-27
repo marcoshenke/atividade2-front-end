@@ -27,27 +27,13 @@ header {
     background-color: #FFE11F;
     color: #FFFFFF;
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: space-between;
-    padding-inline: 2px;
-    height: 13rem;
-    align-items: flex-start ;
+    padding-inline: 20px;
+    height: 10vh;
+    align-items: center ;
     background-image: url("/imagens/brasilbandeira.jpg");
     background-position: 10% 40%;
-    
-}
-
-
-
-.dentro-header {
-    background-color: #16B83E;
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    height: 8vh;
-    justify-content: space-between;
-    border-bottom: 5px solid white;
-    align-items: center;
     
 }
 
@@ -113,6 +99,15 @@ background: linear-gradient(90deg, rgba(22,81,184,1) 0%, rgba(255,225,31,1) 50%,
     
 }
 
+.material-icons.md-36 { font-size: 46px; }
+
+
+button {
+    height: 55px;
+    width: 170px;
+    align-self: center;
+}
+
 main > h2 {
     font-size: 50px;
 }
@@ -134,14 +129,30 @@ form {
     gap: 30px;
     font-size: 25px;
     font-weight: bold;
-    background-color: #FFE11F;
+    background-color: #16B83E;
     padding: 30px 15px;
     width: 30vw;
     align-content: center;
     border-radius: 10px;
     box-shadow: 10px 6px 47px -1px rgba(250,232,130,1);
+      
+}
+
+.button {
+    width: 100px;
     
 }
+
+.insiraimagem {
+    display: none;
+    
+}
+
+.labelinsiraimagem {
+    cursor: pointer;
+}
+
+
 
 .inputs {
     background-color: #FFFFFF;

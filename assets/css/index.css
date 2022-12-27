@@ -26,28 +26,15 @@ header {
     background-color: #FFE11F;
     color: #FFFFFF;
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: space-between;
-    padding-inline: 2px;
-    height: 13rem;
-    align-items: flex-start ;
+    padding-inline: 20px;
+    height: 10vh;
+    align-items: center ;
     background-image: url("/imagens/brasilbandeira.jpg");
     background-position: 10% 40%;
     
 }
-
-.dentro-header {
-    background-color: #16B83E;
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    height: 8vh;
-    justify-content: space-between;
-    border-bottom: 5px solid white;
-    align-items: center;
-    
-}
-
 
 .logo {
     font-size: 40px;

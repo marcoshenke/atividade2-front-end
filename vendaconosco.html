@@ -13,11 +13,13 @@
         <link rel="stylesheet" href="/assets/css/vendaconosco.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
         <title>Venda Conosco</title>
     </head>
     <body>
         <header>
-            <div class="dentro-header">
                 <h1 class="logo">
                 BRASIL.EQUIÇA
                 </h1>
@@ -28,7 +30,7 @@
                     <a href="/listadeprodutos.html">Lista de Produtos</a>
                     <a href="/vendaconosco.html">Venda Conosco</a>
                 </nav>
-            </div>   
+              
             
            
             
@@ -51,9 +53,16 @@
                     <input class="inputs"id="quantocobra" name="quantocobra" type="text"> 
                 </div>
                 <div>
-                    <label for="insiraimagem">Insira boas fotos da camiseta</label>
-                    <input class="insiraimagem"id="insiraimagem" name="insiraimagem" type="file">
-                </div>          
+                    <label class="labelinsiraimagem" for="insiraimagem">Insira boas fotos da camiseta 
+                        <input class="insiraimagem"id="insiraimagem" name="insiraimagem" type="file" placeholder="procure ai parça">  
+                        <span class="material-icons md-36">
+                            attach_file
+                            </span>                       
+                    </label>                
+                                     
+                    
+                </div> 
+                <button type="submit">Envie ai meu truta</button>         
                       
                
             </form>
