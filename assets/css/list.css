@@ -32,7 +32,7 @@ header {
   padding-inline: 20px;
   height: 10vh;
   align-items: center ;
-  background-image: url("/imagens/brasilbandeira.jpg");
+  background-image: url("/images/brasilbandeira.jpg");
   background-position: 10% 40%;
   
 }
@@ -157,28 +157,4 @@ table, th, td {
     font-weight: bold;
   }
 
-  @media only screen and (max-width: 1778px) {
-    .dentro-header {
-        height: 12vh;
-        width: 100%;
-        background-position: 5% 40%;
-  }
-
-  main {
-    height: 110vh;
-    width: 95vw;
-  }
-
-  header {
-    width: 98.6vw
-  }
-
-  main {
-    width: 95.2vw;
-  }
-  
-  footer {
-    width: 97.3vw;
-  }
-  }
-  
+ 

@@ -32,7 +32,7 @@ header {
     padding-inline: 20px;
     height: 10vh;
     align-items: center ;
-    background-image: url("/imagens/brasilbandeira.jpg");
+    background-image: url("/images/brasilbandeira.jpg");
     background-position: 10% 40%;
     
 }
@@ -119,6 +119,10 @@ h1 > img {
     width: 50px;
 }
 
+article > h5 {
+    font-size: 1rem;
+}
+
 .products {
     display: flex;
     flex-flow: row wrap;
@@ -177,7 +181,7 @@ article > button {
     justify-content: center;
 }
 
-#quantidade {
+#amount {
     width: 2.5rem;
 }
 
@@ -186,40 +190,3 @@ article > button:hover {
     color: #FFE11F;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 479px)
-{ 
-    .logo {
-        font-size: 40px;    
-    }
-
-    .slogan-and-title {
-        margin-top: 0px;
-        font-size: 1rem;
-        
-    }
-
-    main {
-        padding: 0;
-        
-        
-    }
-
-    footer {
-                
-    }
- }
-
-@media (min-width:480px) 
-{ /* smartphones, Android phones, landscape iPhone */ }
-
-@media (min-width:600px) 
-{ /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-
-@media (min-width:801px) 
-{ /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-
-@media (min-width:1025px) 
-{ /* big landscape tablets, laptops, and desktops */ }
-
-@media (min-width:1281px)
- { /* hi-res laptops and desktops */ }
