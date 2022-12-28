@@ -64,11 +64,11 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color:#16B83E;
-    font-weight: 900;
-    border-color: #1651B8;
+    background: rgb(22,184,62);
+    background: linear-gradient(194deg, rgba(22,184,62,1) 15%, rgba(22,81,184,1) 85%); 
+    color: #FFD700
+    
 }
-
 
 
 .slogan-and-title {
@@ -95,7 +95,7 @@ main {
 background: linear-gradient(90deg, rgba(22,81,184,1) 0%, rgba(255,225,31,1) 50%, rgba(22,184,62,1) 100%);
    color: #FFFFFF;
     padding: 25px;
-    height: 90vh;
+    height: 76.5vh;
     
 }
 

@@ -63,9 +63,10 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color:#FFE11F;
-    color: #1651B8;
-    border-color: #1651B8;
+  background: rgb(22,184,62);
+  background: linear-gradient(194deg, rgba(22,184,62,1) 15%, rgba(22,81,184,1) 85%); 
+  color: #FFD700
+  
 }
 
 .slogan-and-title {
